@@ -59,43 +59,11 @@ button {
     width: 200px;
     height: 200px;
     bottom: 100px;
-}
-
-#sign-language-video-wrapper {
     display: none;
 }
 
-#sign-language-video-wrapper .main-video {
-    position: relative;
-    z-index: 1;
-}
-
-#sign-language-video-wrapper.active {
+.sign-language-container.active {
     display: block;
-}
-
-.sign-language-container button {
-    position: absolute;
-    left: 0;
-    top: 0;
-    border-radius: 100px;
-    width: 30px;
-    height: 30px;
-    border: 1px solid black;
-    cursor: pointer;
-    z-index: 100;
-    outline: none;
-}
-
-.sign-language-container .show-button {
-    right: 0;
-    left: auto;
-    bottom: 0;
-    top: auto;
-    z-index: 0;
-    width: 50px;
-    height: 50px;
-    font-size: 2rem;
 }
 
 /*right bar style (tip and chat feature)*/
@@ -124,10 +92,9 @@ button {
 }
 
 .total-tip {
-    background: #5EEB5B;
+    color: #5EEB5B;
     padding: 0.25rem 0.75rem;
     border-radius: 50px;
-    color: black;
 }
 
 .total-tip i {
@@ -347,4 +314,12 @@ button {
         left: 0;
         transform: none;
     }
+}
+
+.plyr__controls {
+    position: relative;
+    z-index: 99999;
+}
+.plyr__controls * {
+    max-width: none !important;
 }

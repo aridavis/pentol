@@ -48,7 +48,7 @@
                 BTS World Tour: Love Yourself
             </div>
             <div>
-                <a class="btn btn-orange btn-lg" href="{{ url('my-ticket') }}">Buy Ticket</a>
+                <a class="btn btn-orange btn-lg" href="{{ url('my-ticket') }}">Buy Ticket $249</a>
             </div>
         </div>
     </div>

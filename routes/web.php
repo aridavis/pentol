@@ -24,8 +24,11 @@ Route::get('/concert-detail', function() {
     return view('concert-detail');
 });
 
-
 Route::group(['middleware' => 'auth'], function() {
+    Route::get('ping', function() {
+        return response()->json(['data' => 'pong'], 200);
+    });
+
     Route::get('/watch', function() {
         return view('concert');
     });

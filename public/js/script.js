@@ -207,6 +207,7 @@ let dummyChat = [
 ];
 let tipModal = false;
 let stickerModal = false;
+let signLanguageModal = false;
 let currentTip = 100;
 
 window.onload = function() {
@@ -214,9 +215,38 @@ window.onload = function() {
 };
 
 function main() {
+    new Plyr('#main-video');
+
+    $('.plyr__controls').append(`
+        <button class="plyr__controls__item plyr__control" id="showSignLanguage" type="button" data-plyr="play" aria-label="Play" onclick="toggleSignLanguage()">
+            <i class="fa fa-sign-language"></i>
+        </button>
+    `);
     setInterval(() => {
         randomChat();
     }, 1000);
+
+    setInterval(() => {
+        checkLoggedIn();
+    }, 1000);
+}
+
+function checkLoggedIn() {
+    const origin = window.location.origin;
+
+    $.ajax(`${origin}/ping`, {
+        type: "GET",
+        contentType: "application/json",
+        xhrFields: {
+            withCredentials: true
+        },
+        crossDomain: true,
+        success: function(data) {
+            if (data.data !== 'pong') {
+                window.location.href = 'login';
+            }
+        }
+    });
 }
 
 function randomChat() {
@@ -315,10 +345,12 @@ function sticker(color, name, url) {
     `).scrollTop(9999);
 }
 
-function hideSignLanguage() {
-    $("#sign-language-video-wrapper").removeClass('active');
-}
+function toggleSignLanguage() {
+    if (signLanguageModal) {
+        $(".sign-language-container").removeClass('active');
+    } else {
+        $(".sign-language-container").addClass('active');
+    }
 
-function showSignLanguage() {
-    $("#sign-language-video-wrapper").addClass('active');
+    signLanguageModal = !signLanguageModal;
 }

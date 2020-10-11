@@ -10,26 +10,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/plyr/3.6.2/plyr.css">
     <link rel="stylesheet" href="{{ asset('css/concert.css') }}">
     <script src="{{ asset('js/script.js') }}"></script>
 </head>
 <body>
 <div class="concert-container">
     <div class="main-video-container">
-        <video autoplay class="main-video" controls>
+        <video class="main-video video-js vjs-default-skin" id="main-video" controls autoplay>
             <source src="{{ asset('video/main-video.mp4') }}">
         </video>
 
         <div class="sign-language-container">
-            <div id="sign-language-video-wrapper">
-                <button class="close-button" onclick="hideSignLanguage()">x</button>
-                <video autoplay class="main-video" muted loop>
-                    <source src="{{ asset('video/sign-language.mp4') }}">
-                </video>
-            </div>
-            <button class="show-button" onclick="showSignLanguage()">
-                <i class="fa fa-sign-language"></i>
-            </button>
+            <video autoplay class="main-video" muted loop>
+                <source src="{{ asset('video/sign-language.mp4') }}">
+            </video>
         </div>
     </div>
     <div class="right-container">
@@ -44,8 +40,8 @@
                 <div class="top-tippers-label">
                     <div class="label-header">Top Tippers</div>
                     <div class="total-tip">
-                        <i class="fa fa-gift"></i>
-                        <span id="tip-info">100$</span>
+                        <span>Total: </span>
+                        <b><span id="tip-info">100$</span></b>
                     </div>
                 </div>
                 <div class="top-tippers-user-list">

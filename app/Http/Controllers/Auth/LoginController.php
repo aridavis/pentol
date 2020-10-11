@@ -46,6 +46,6 @@ class LoginController extends Controller
         $data = $request->all();
 
         Auth::logoutOtherDevices($request->password);
-        return redirect()->intended($this->redirectPath());
+        return redirect('/');
     }
 }
