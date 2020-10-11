@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+    outline: none !important;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #F09E00;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: PT Sans;
+    font-size: 1.2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.user-picture {
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background: purple;
+    border-radius: 30px;
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: center;
+    overflow: hidden;
+    color: white;
+}
+
+.user-picture span {
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+header .search-bar {
+    flex: 1;
+}
+
+header .logo {
+    margin-right: 2rem;
+}
+
+header .search-bar input {
+    border-radius: 50px;
+    border: none;
+    background: #ddd;
+    padding: 0.5rem 1rem;
+    width: 400px;
+    font-size: 1.3rem;
+}
+
+header .menu {
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+header .menu li {
+    margin-left: 1rem;
+}
+
+header .profile {
+    display: flex;
+    align-items: center;
+}
+
+header .profile .user-picture {
+    margin-right: 0.5rem;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.concert-collections .container > div {
+    margin-top: 2rem;
+}
+
+.card {
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-word {
+    padding: 0.5rem 1rem;
+}
+
+.concert-title {
+    font-weight: bold;
+}
+
+.concert-date {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.auth-wrapper {
+    margin-top: 5rem;
+}
+
+.btn-orange {
+    background: #F09E00;
+    border: #F09E00;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    header {
+        flex-flow: row wrap;
+    }
+    header .search-bar {
+        padding-top: 1rem;
+        order: 3;
+    }
+
+    header .search-bar input {
+        width: 100vw;
+    }
+}
