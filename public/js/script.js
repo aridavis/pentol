@@ -314,3 +314,11 @@ function sticker(color, name, url) {
         </div>
     `).scrollTop(9999);
 }
+
+function hideSignLanguage() {
+    $("#sign-language-video-wrapper").removeClass('active');
+}
+
+function showSignLanguage() {
+    $("#sign-language-video-wrapper").addClass('active');
+}

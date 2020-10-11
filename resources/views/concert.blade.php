@@ -20,15 +20,21 @@
         </video>
 
         <div class="sign-language-container">
-            <video autoplay class="main-video" muted loop>
-                <source src="{{ asset('video/sign-language.mp4') }}">
-            </video>
+            <div id="sign-language-video-wrapper">
+                <button class="close-button" onclick="hideSignLanguage()">x</button>
+                <video autoplay class="main-video" muted loop>
+                    <source src="{{ asset('video/sign-language.mp4') }}">
+                </video>
+            </div>
+            <button class="show-button" onclick="showSignLanguage()">
+                <i class="fa fa-flag-checkered"></i>
+            </button>
         </div>
     </div>
     <div class="right-container">
         <div class="right-top-container">
             <div class="top-tippers">
-                <div class="pb-3">
+                <div class="pb-2 pb-lg-3">
                     <a href="{{ url('/my-ticket') }}" class="text-orange">
                         <i class="fa fa-chevron-left"></i>
                         Exit concert

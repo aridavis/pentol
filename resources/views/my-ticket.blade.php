@@ -25,11 +25,11 @@
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card">
                             <div class="card-image">
-                                <img src="{{ asset('images/concert/concert1.jpg') }}" alt="">
+                                <img src="{{ asset('images/concert/concert2.jpg') }}" alt="">
                             </div>
                             <div class="card-word">
                                 <a class="concert-title" href="{{ url('concert-detail') }}">
-                                    BTS World Tour: Love Yourself
+                                    Night Party
                                 </a>
                                 <div class="concert-date">
                                     <i class="fa fa-calendar"></i>
