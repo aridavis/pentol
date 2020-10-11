@@ -10,167 +10,167 @@ let dummyChat = [
         'chat': 'Great concept'
     },
     {
-        'color': 'red',
+        'color': '#D0E3C4',
         'name': 'Kaden Fellows',
         'chat': 'This is so cool'
     },
     {
-        'color': 'pink',
+        'color': '#fcdada',
         'name': 'Khalil Pearson',
         'chat': 'Wow!!'
     },
     {
-        'color': 'pink',
+        'color': '#fadcaa',
         'name': 'Ikra Bartlett',
         'chat': 'I really like their music'
     },
     {
-        'color': 'pink',
+        'color': '#f08a5d',
         'name': 'Eden Branch',
         'chat': 'It feels like watching a real concert'
     },
     {
-        'color': 'pink',
+        'color': '#c3aed6',
         'name': 'Milla Mckenzie',
         'chat': 'Please say my name'
     },
     {
-        'color': 'pink',
+        'color': '#ffd57e',
         'name': 'Parker Salinas',
         'chat': 'Shout out to the concert organizer'
     },
     {
-        'color': 'pink',
+        'color': '#efbbcf',
         'name': 'Jaxson Rankin',
         'chat': 'This is it'
     },
     {
-        'color': 'pink',
+        'color': '#ffcb8e',
         'name': 'Eleni Duarte',
         'chat': 'YESSS !!!'
     },
     {
-        'color': 'pink',
+        'color': '#065c6f',
         'name': 'Zayd Booth',
         'chat': 'This is great'
     },
     {
-        'color': 'pink',
+        'color': '#065c6f',
         'name': 'Dion Bowler',
         'chat': 'I will definitely watch your next concert !!!'
     },
     {
-        'color': 'pink',
+        'color': '#fe7171',
         'name': 'Ryder Hilton',
         'chat': 'Cool!'
     },
     {
-        'color': 'pink',
+        'color': '#fe7171',
         'name': 'Selena Campbell',
         'chat': 'I really love youuuuu !!'
     },
     {
-        'color': 'pink',
+        'color': '#2ec1ac',
         'name': 'Robert J',
         'chat': 'praise the eor'
     },
     {
-        'color': 'pink',
+        'color': '#2ec1ac',
         'name': 'Mandy Collins',
         'chat': 'Been waiting for this !'
     },
     {
-        'color': 'pink',
+        'color': '#2ec1ac',
         'name': 'Eleanor',
         'chat': 'OMG !! aaa'
     },
     {
-        'color': 'pink',
+        'color': '#a37eba',
         'name': 'Emily Courtfen',
         'chat': 'Always love this song!!'
     },
     {
-        'color': 'pink',
+        'color': '#fcdab7',
         'name': 'Jason Pattinson',
         'chat': 'I will definitely watch your next concert !!!'
     },
     {
-        'color': 'pink',
+        'color': '#fcdab7',
         'name': 'Kevin',
         'chat': 'WE WANT MOREEEEEE !!!!!'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'STef',
         'chat': 'MORE PLEASEEEEEEE'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'Albert T',
         'chat': 'we want more!!'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'Margo Tremson',
         'chat': 'I love youuuuuuuuuu'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'Samantha',
         'chat': 'My favorite song OMG!!!'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'Zacky Berg',
         'chat': 'THIS IS LITTTTt'
     },
     {
-        'color': 'pink',
+        'color': '#ffbb91',
         'name': 'Damon',
         'chat': 'FInally got to see them live!'
     },
     {
-        'color': 'pink',
+        'color': '#fbe2e5',
         'name': 'Alicia Stef',
         'chat': 'Cool!'
     },
     {
-        'color': 'pink',
+        'color': '#fbe2e5',
         'name': 'Caroline Kempinsky',
         'chat': 'Please say my name'
     },
     {
-        'color': 'pink',
+        'color': '#f3e6e3',
         'name': 'Maria',
         'chat': 'AAAAAAAAAAAAA'
     },
     {
-        'color': 'pink',
+        'color': '#f3e6e3',
         'name': 'Kenny G',
         'chat': 'I REALLY WANT TO HUG YOUUUU'
     },
     {
-        'color': 'pink',
+        'color': '#f3e6e3',
         'name': 'Massimo Carte',
         'chat': 'yeeeeeeaaaaaaaa'
     },
     {
-        'color': 'pink',
+        'color': '#f3e6e3',
         'name': 'Merci',
         'chat': 'will never get bored of them omg'
     },
     {
-        'color': 'pink',
+        'color': '#f3e6e3',
         'name': 'Blessy Travis',
         'chat': 'XOXO'
     },
     {
-        'color': 'pink',
+        'color': '#e84a5f',
         'name': 'Kylie Manner',
         'chat': 'MARRYYY MEEEEE'
     },
     {
-        'color': 'pink',
+        'color': '#e84a5f',
         'name': 'Hamish D',
         'chat': 'love this'
     },
