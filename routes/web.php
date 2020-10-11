@@ -20,12 +20,23 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/watch', function() {
-    return view('concert');
+Route::get('/concert-detail', function() {
+    return view('concert-detail');
 });
 
-Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
-Route::get('/profile', function() {
-    return view('profile');
+Route::group(['middleware' => 'auth'], function() {
+    Route::get('/watch', function() {
+        return view('concert');
+    });
+
+    Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
+
+    Route::get('/profile', function() {
+        return view('profile');
+    });
+
+    Route::get('/my-ticket', function() {
+        return view('my-ticket');
+    });
 });

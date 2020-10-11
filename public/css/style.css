@@ -1,3 +1,4 @@
+/*global style*/
 * {
     box-sizing: border-box;
     max-width: 100%;
@@ -24,10 +25,11 @@ body {
     font-size: 1.2rem;
 }
 
-button {
+button, a {
     cursor: pointer;
 }
 
+/*user picture style*/
 .user-picture {
     min-width: 30px;
     width: 30px;
@@ -45,6 +47,7 @@ button {
     margin-top: 10px;
 }
 
+/*header navigation*/
 header {
     display: flex;
     align-items: center;
@@ -89,9 +92,14 @@ header .profile .user-picture {
     margin-right: 0.5rem;
 }
 
+/*layout*/
 .container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.row {
+    max-width: none;
 }
 
 .concert-collections .container > div {
@@ -108,6 +116,10 @@ header .profile .user-picture {
     overflow: hidden;
 }
 
+.card-image.full {
+    height: auto;
+}
+
 .card-image img {
     width: 100%;
     height: 100%;
@@ -116,16 +128,20 @@ header .profile .user-picture {
 }
 
 .card-word {
-    padding: 0.5rem 1rem;
+    padding: 1rem;
 }
 
 .concert-title {
     font-weight: bold;
 }
 
-.concert-date {
+.concert-info {
     font-size: 0.9rem;
     color: #666;
+}
+
+.concert-info i {
+    width: 20px;
 }
 
 .auth-wrapper {
@@ -138,8 +154,11 @@ header .profile .user-picture {
     color: black;
 }
 
+.text-orange {
+    color: #F09E00 !important;
+}
 
-
+/*responsive web*/
 @media screen and (max-width: 767px) {
     header {
         flex-flow: row wrap;
@@ -152,4 +171,67 @@ header .profile .user-picture {
     header .search-bar input {
         width: 100vw;
     }
+}
+
+.profile-wrapper {
+    padding-top: 4rem;
+}
+
+.profile-wrapper .container {
+    display: flex;
+}
+
+.profile-wrapper .tab-wrapper {
+    padding: 1rem;
+    flex: 1;
+}
+
+.profile-tab {
+    width: 300px;
+    border-right: 1px solid #eee;
+    height: 80vh;
+    list-style: none;
+    margin: 0;
+}
+
+.profile-tab li {
+    color: #aaa;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.profile-tab li.active {
+    color: #333;
+}
+
+.profile-tab li i {
+    width: 50px;
+}
+
+.profile-wrapper .user-picture {
+    transform: scale(3);
+}
+
+.profile-wrapper .username {
+    margin-top: 2rem;
+}
+
+/*bottom bar styling*/
+.bottom-bar {
+    position: fixed;
+    padding: 1.5rem 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #eee;
+}
+
+.concert-buy-title {
+    font-size: 2rem;
+}
+
+.bottom-bar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }

@@ -1,3 +1,4 @@
+/*global style*/
 * {
     box-sizing: border-box;
     max-width: 100%;
@@ -7,6 +8,18 @@
 html {
     margin: 0;
     padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #F09E00;
+}
+
+.text-orange {
+    color: #F09E00 !important;
 }
 
 body {
@@ -21,6 +34,7 @@ button {
     cursor: pointer;
 }
 
+/*concert video container*/
 .concert-container {
     display: flex;
     height: 100vh;
@@ -30,6 +44,7 @@ button {
 .main-video-container {
     flex: 1;
     height: 100%;
+    position: relative;
 }
 
 .main-video {
@@ -37,6 +52,15 @@ button {
     height: 100%;
 }
 
+.sign-language-container {
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    bottom: 100px;
+}
+
+/*right bar style (tip and chat feature)*/
 .right-container {
     width: 400px;
 }
@@ -89,7 +113,7 @@ button {
 }
 
 .top-tippers-user-list {
-    padding-top: 0.5rem;
+    padding-top: 0.25rem;
     display: flex;
 }
 
@@ -103,12 +127,26 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    overflow: hidden;
+}
+
+#chat-containers {
+    max-height: 100%;
+    overflow-y: auto;
 }
 
 .chat-wrapper {
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
+}
+
+.chat-wrapper.current {
+    background: rgba(255,255,255,0.1);
+}
+
+.chat-wrapper.tip {
+    background: rgba(94, 235, 91, 0.3);
 }
 
 .chat-wrapper .user-picture{
@@ -158,9 +196,89 @@ button {
     justify-content: space-between;
 }
 
-.chat-input-wrapper .chat-extension button {
+.chat-input-wrapper .chat-extension-left {
+    display: flex;
+}
+
+.chat-input-wrapper .chat-extension-left > div {
+    position: relative;
+}
+
+.chat-input-wrapper .chat-extension > div > div > button {
     background: transparent;
     border: none;
     color: white;
     font-size: 1.5rem;
+}
+
+.tip-modal {
+    width: 300px;
+    max-width: none;
+    height: 130px;
+    position: absolute;
+    background: #333;
+    top: -140px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.tip-modal.active{
+    display: block;
+}
+
+.btn-orange {
+    background: #F09E00;
+    border: #F09E00;
+    color: black;
+}
+
+.tip-wrapper {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 130px;
+}
+
+.tip-wrapper input {
+    flex: 1;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+
+.tip-wrapper input + button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.sticker-modal {
+    width: 300px;
+    max-width: none;
+    height: 300px;
+    position: absolute;
+    background: #333;
+    top: -310px;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.sticker-modal.active {
+    display: block;
+}
+
+.sticker-modal-wrapper img {
+    width: 100%;
+    height: 100%;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.sticker-modal-wrapper img:hover {
+    transform: scale(1.1);
 }
