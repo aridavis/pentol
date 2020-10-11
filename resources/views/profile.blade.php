@@ -25,8 +25,8 @@
                     <div class="user-picture">
                         <span class="fa fa-user"></span>
                     </div>
-                    <div class="username">Luki Centuri</div>
-                    <div class="email">lukicenturi@gmail.com</div>
+                    <div class="username">{{ Auth::user()['name'] }}</div>
+                    <div class="email">{{ Auth::user()['email'] }}</div>
                     <a class="text-orange">Change Password</a>
                 </div>
             </div>
