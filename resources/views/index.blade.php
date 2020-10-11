@@ -19,6 +19,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -34,6 +38,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>
@@ -51,6 +59,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -66,6 +78,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>
@@ -83,6 +99,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -98,6 +118,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>
@@ -121,6 +145,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,6 +164,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>
@@ -153,6 +185,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -168,6 +204,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>
@@ -185,6 +225,10 @@
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
                             </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,6 +244,10 @@
                             <div class="concert-date">
                                 <i class="fa fa-calendar"></i>
                                 26 Feb 2021
+                            </div>
+                            <div class="concert-price">
+                                <div class="text-danger">$300</div>
+                                <div class="text-success">$249</div>
                             </div>
                         </div>
                     </div>

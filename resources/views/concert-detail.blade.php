@@ -21,6 +21,10 @@
                                 <i class="fa fa-clock-o"></i>
                                 09.30 - 10.30
                             </div>
+                            <div class="concert-price">
+                                <div class="mr-2">Ticket Price: </div>
+                                <div class="text-success">$249</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,7 +48,7 @@
                 BTS World Tour: Love Yourself
             </div>
             <div>
-                <a class="btn btn-orange btn-lg" href="{{ url('my-ticket') }}">Buy</a>
+                <a class="btn btn-orange btn-lg" href="{{ url('my-ticket') }}">Buy Ticket</a>
             </div>
         </div>
     </div>

@@ -23,6 +23,8 @@ body {
     padding: 0;
     font-family: PT Sans;
     font-size: 1.2rem;
+    background: black;
+    color: white;
 }
 
 button, a {
@@ -53,7 +55,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #333;
 }
 
 header .search-bar {
@@ -67,7 +69,7 @@ header .logo {
 header .search-bar input {
     border-radius: 50px;
     border: none;
-    background: #ddd;
+    background: #efefef;
     padding: 0.5rem 1rem;
     width: 400px;
     font-size: 1.3rem;
@@ -109,6 +111,7 @@ header .profile .user-picture {
 .card {
     border-radius: 5px;
     overflow: hidden;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .card-image {
@@ -137,11 +140,20 @@ header .profile .user-picture {
 
 .concert-info {
     font-size: 0.9rem;
-    color: #666;
+    color: #999;
 }
 
 .concert-info i {
     width: 20px;
+}
+
+.concert-price {
+    display: flex;
+}
+
+.concert-price .text-danger {
+    text-decoration: line-through;
+    margin-right: 0.5rem;
 }
 
 .auth-wrapper {
@@ -171,6 +183,10 @@ header .profile .user-picture {
     header .search-bar input {
         width: 100vw;
     }
+
+    .profile-tab {
+        display: none;
+    }
 }
 
 .profile-wrapper {
@@ -187,8 +203,8 @@ header .profile .user-picture {
 }
 
 .profile-tab {
-    width: 300px;
-    border-right: 1px solid #eee;
+    width: 230px;
+    border-right: 1px solid #333;
     height: 80vh;
     list-style: none;
     margin: 0;
@@ -201,7 +217,7 @@ header .profile .user-picture {
 }
 
 .profile-tab li.active {
-    color: #333;
+    color: white;
 }
 
 .profile-tab li i {
@@ -223,7 +239,7 @@ header .profile .user-picture {
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #eee;
+    background: #333;
 }
 
 .concert-buy-title {
@@ -234,4 +250,9 @@ header .profile .user-picture {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/*dropdown*/
+.dropdown-item:active {
+    background: #F09E00;
 }

@@ -7,9 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pentol</title>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="{{ asset('css/concert.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('css/concert.css') }}">
     <script src="{{ asset('js/script.js') }}"></script>
 </head>
 <body>
@@ -27,7 +28,7 @@
                 </video>
             </div>
             <button class="show-button" onclick="showSignLanguage()">
-                <i class="fa fa-flag-checkered"></i>
+                <i class="fa fa-sign-language"></i>
             </button>
         </div>
     </div>
@@ -51,16 +52,16 @@
                     <div class="user-picture" title="Luki Centuri (10$)">
                         <span class="fa fa-user"></span>
                     </div>
-                    <div class="user-picture" title="Luki Centuri (10$)">
+                    <div class="user-picture" title="Luki Centuri (10$)" style="background: #D0E3C4">
                         <span class="fa fa-user"></span>
                     </div>
-                    <div class="user-picture" title="Luki Centuri (10$)">
+                    <div class="user-picture" title="Luki Centuri (10$)" style="background: red">
                         <span class="fa fa-user"></span>
                     </div>
-                    <div class="user-picture" title="Luki Centuri (10$)">
+                    <div class="user-picture" title="Luki Centuri (10$)" style="background: pink">
                         <span class="fa fa-user"></span>
                     </div>
-                    <div class="user-picture" title="Luki Centuri (10$)">
+                    <div class="user-picture" title="Luki Centuri (10$)" style="background: #f08a5d">
                         <span class="fa fa-user"></span>
                     </div>
                 </div>
